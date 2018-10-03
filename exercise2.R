@@ -34,5 +34,6 @@ fruit_col = c('g', 'y', 'r', 'g', 'b', 'r')
 (fruit_col == 'r' & fruit_size > 5) | (fruit_col != 'r' & fruit_size < 5)
 
 
+mtcars <- mtcars
 
-
+sum(mtcars[mtcars$carb <= 2,] [c(3,8,12),]$disp)
