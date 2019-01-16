@@ -244,3 +244,4 @@ gap_asia %>%
   filter(!is_outlier) %>%
   ggplot(aes(x = 1, y = lifeExp)) +
   geom_boxplot()
+
